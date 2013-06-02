@@ -43,7 +43,7 @@ namespace Jazz_Tools_Mach_3
             string Password = "Muir$ak4";
             string Server = "us1";
             
-            LEWrapper le = new LEWrapper("Jazz","Muir$ak4","us1");
+            LEWrapper le = new LEWrapper("Jazz","M","us1");
             PrintPlanetList p = new PrintPlanetList();
             p.Subscribe(le);
             le.EmpireLogin();
